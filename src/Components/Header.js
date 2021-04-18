@@ -8,11 +8,14 @@ const Header = () => {
       <Navbar bg="dark" expand="lg" variant="dark" collapseOnSelect>
 
           <LinkContainer to="/">
-            <Navbar.Brand href="/"></Navbar.Brand>
+            <Navbar.Brand href="/">First</Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav" >
           <Nav className="ml-auto">
+          <LinkContainer to="/123">
+            <Navbar.Brand href="/123">Second</Navbar.Brand>
+          </LinkContainer>
             </Nav>
       
     

@@ -5,3 +5,7 @@ main{
 .cursor{
   cursor: pointer;
 }
+.progress .progress-bar {
+  font-size: 12px;
+  line-height: 8px;
+}

@@ -4,11 +4,11 @@ import Header from '../Components/Header'
 
 const Home = () => {
     return (
-        <div style={{textAlign:"-webkit-center"}}>
+        <div style={{textAlign:"-webkit-center",marginTop:"10vh"}}>
       <Card style={{minWidth:"20rem",boxShadow:"2px 2px 2px #ddd",maxWidth:"80rem"}}>
           <Card.Body style={{backgroundColor:"aliceblue"}}>
               <Form>
-                  <Form.Row>
+                  <Form.Row >
                       <Form.Group as={Col}>
                       <Form.Label>Enter 1st URL</Form.Label>
       <Form.Control type="text" placeholder="Enter URL" style={{    textAlignLast: "center"}}/>
